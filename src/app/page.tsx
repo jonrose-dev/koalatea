@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Logo from "./koalatea.jpeg";
 import Logo2 from "./koalatea2.jpeg";
+import Logo3 from "./koalatea3.jpeg";
 
 export default function Home() {
 	return (
@@ -9,6 +10,7 @@ export default function Home() {
 			<div className="flex gap-x-4">
 				<Image src={Logo} className="max-h-96 w-fit" alt="logo" />
 				<Image src={Logo2} className="max-h-96 w-fit" alt="logo" />
+				<Image src={Logo3} className="max-h-96 w-fit" alt="logo" />
 			</div>
 		</main>
 	);
